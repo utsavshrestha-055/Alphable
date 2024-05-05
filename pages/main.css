@@ -4,6 +4,7 @@
 :root {
   --primary: #0066FF;
   --secondary: linear-gradient(290.48deg, #1D63B5 -37.99%, #4A239F 106.83%);
+  --banner-color :linear-gradient(300deg, rgb(235, 245, 255) 30%,rgb(241, 246, 252),rgba(235, 245, 255) ) 
 
 }
 
@@ -276,4 +277,8 @@ line-height: 29.09px;
 .button-primary{
   background-color: var(--primary);
   color: #ffffff;
+}
+
+.card {
+  cursor: pointer;
 }

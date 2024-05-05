@@ -2,6 +2,9 @@
     height: 105px;
     align-content: center;
 }
+.header ul li {
+  cursor: pointer;
+}
 .header ul li .logo{
   width: 32px;
 height: 32px;
@@ -28,7 +31,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 border-radius: 64px;
-background-color: rgb(64, 189, 243);
+background: var(--banner-color);
 gap: 45px;
   }
 
@@ -105,3 +108,6 @@ height: 200px;
 .news-letter{
 height: 545px;
 }
+.footer ul li{
+  cursor: pointer;
+ }
