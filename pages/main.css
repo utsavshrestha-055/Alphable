@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary: #0066FF;
+  --secondary: linear-gradient(290.48deg, #1D63B5 -37.99%, #4A239F 106.83%);
+
+}
+
+::-webkit-scrollbar {
+  /* width: 10px;
+  height: 4px; */
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px var(--primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth !important;
+  /* overflow-x: hidden; */
+}
+
+
+
+body {
+  scroll-behavior: smooth !important;
+  font-family: SatoshiVariable;
+  width: 100%;
+  overflow-x: hidden;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+
+
+
+img {
+  width: 100%;
+ 
+  height: auto;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+p,
+a,
+span,
+table,
+th,
+tr,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.bold {
+  font-weight: 900;
+}
+
+.regular {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.display {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: calc(40px * 1.5);
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 140%;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: calc(28px * 1.5);
+}
+
+h4 {
+  font-size: 24px;
+  line-height: calc(24px * 1.5);
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 120%;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: calc(18px * 1.5);
+}
+
+
+label,
+span {
+  font-size: 16px;
+  line-height: calc(16px * 1.5);
+}
+
+p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+@media only screen and (max-width:600px) {
+  .display {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: calc(32px * 1.5);
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 120%;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: calc(24px * 1.5);
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: calc(20px * 1.5);
+  }
+
+  h5 {
+    font-size: 18px;
+    line-height: 120%;
+  }
+
+  h6 {
+    font-size: 16px;
+    line-height: calc(16px * 1.5);
+  }
+
+
+  label,
+  span {
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.button {
+  display: inline-block;
+  white-space: nowrap;
+  color: #000000;
+  
+  border: 1px solid black;
+  
+  transition: all ease 0.5s;
+background: #ffffff;
+justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+}
+
+
+
+.button:hover {
+  color: #fff;
+  transition: all ease 0.5s;
+  background: linear-gradient(179.81deg, #28A3D5 -78.1%, #3e4b5e 139.48%);
+}
+
+.button-sm{
+  height: 38px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top:8px ;
+  padding-bottom: 8px;
+  border-radius: 16px;
+  
+  font-family: Libre Franklin;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.82px;
+
+
+}
+
+.button-lg{
+padding-top: 24px;
+padding-right:45px ;
+padding-bottom:24px ;
+padding-left:45px ;
+  height: 77px;
+  
+  border-radius: 32px;
+  font-family: Libre Franklin;
+font-size: 24px;
+font-weight: 600;
+line-height: 29.09px;
+
+
+}
+.button-md {
+ 
+}
+
+.button-primary{
+  background-color: var(--primary);
+  color: #ffffff;
+}
